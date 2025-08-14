@@ -1,7 +1,10 @@
----
+# Public Mirror Disclaimer
 
-## ⚠️ Disclaimer (Public Mirror)
-This repository is a **public mirror** containing only non-sensitive documentation, diagrams, and dummy samples for review purposes.
-- No production credentials, private keys, or personal data are stored here.
-- Core implementation (including AI models, heuristics, infrastructure, and configs) remains **private** for security reasons.
-- Full source access for security audit is available **upon request under NDA**.
+This repository is a **public mirror** intended for transparency with grant reviewers and the community.
+It includes only non-sensitive documentation and example files.
+
+- No production credentials, private keys, or personal data are present.
+- Core implementation (AI scoring logic, infrastructure, configurations) is kept **private** to protect users and prevent abuse.
+- We can provide restricted access to the full source code **upon request under NDA** for formal security review.
+
+For security matters: security@example.com (dummy address).

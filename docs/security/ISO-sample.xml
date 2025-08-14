@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ISO 20022 Public Mirror Sample
+  This is a dummy file for demonstration purposes only.
+  All wallet addresses, transactions, and values are fictional.
+-->
+
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10">
+    <CstmrCdtTrfInitn>
+        <GrpHdr>
+            <MsgId>ASSETGUARD-PUBLIC-2025-0001</MsgId>
+            <CreDtTm>2025-08-14T12:00:00Z</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <CtrlSum>1000.00</CtrlSum>
+            <InitgPty>
+                <Nm>ADC AssetGuard Public Mirror</Nm>
+            </InitgPty>
+        </GrpHdr>
+        <PmtInf>
+            <PmtInfId>TXN-PUBLIC-001</PmtInfId>
+            <PmtMtd>TRF</PmtMtd>
+            <ReqdExctnDt>2025-08-14</ReqdExctnDt>
+            <Dbtr>
+                <Nm>Sample Wallet Holder</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>0x1234567890ABCDEF</Id>
+                    </Othr>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>ADCCMYKLXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <Cdtr>
+                <Nm>Sample Recipient</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>0xABCDEF1234567890</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>ADCCMYKLXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <RmtInf>
+                <Ustrd>Public Mirror Risk Report Export</Ustrd>
+            </RmtInf>
+        </PmtInf>
+    </CstmrCdtTrfInitn>
+</Document>
